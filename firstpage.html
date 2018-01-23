@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Goes in the tab/searched title</title>
+</head>
+<body>
+<!-- 	<h1>h1 Largest heading h1-h6 sizes</h1>
+	<h2>h2</h2>
+	<h6>block level elements. They all get their own line</h6>
+
+	<b>b tag or bold is being deprecated, so don't use this anymore <br> same with i for italisize</b><br>
+
+	<strong>strong is the new bold. Inline elements</strong><br>
+
+	<em>em for emphasis. Italicize the text</em><br>
+
+	<p>paragraph tags for separation with a line</p>
+	<p>like this for example</p>
+	
+	<ol>
+		<li>order list</li>
+		<li>requires list items within it</li>
+		<li>numbered
+			<ul>
+				<li>nested lists</li>
+				<li>two</li>
+			</ul>
+
+		</li>
+	</ol>
+
+	<ul>
+		<li>unorder list</li>
+		<li>requires list items within it</li>
+		<li>bullet points</li>
+	</ul>
+
+	<img src="https://pbs.twimg.com/profile_images/947510471883665409/zueqpgBv_400x400.jpg">
+	<a href="http://www.google.com">let's go to google</a>
+	<a href="page2.html">Go to page 2</a> -->
+
+
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Age</th>
+				<th>breed</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Rusty</td>
+				<td>2</td>
+				<td>mutt</td>
+			</tr>
+			<tr>
+				<td>Wyatt</td>
+				<td>18</td>
+				<td>Golden</td>
+			</tr>
+		</tbody>
+		
+	</table>
+
+	<!-- action - where the form send data to -->
+	<!-- method - what HTTP method (get/post) default get -->
+	<!-- required - presence validation  -->
+
+	<form action="http://wikipedia.org" method="post">
+		<label>
+			Email:
+			<input type="email" name="email" placeholder="username" required>
+		</label>
+		<label for="password">Password:</label>
+		<input id="password" type="password" name="password" placeholder="password" required>
+
+		<input type="submit">
+		<!-- <button>Login</button> -->
+		
+	</form>
+
+	<p>Which one do you want?</p>
+	<form>
+		<label for="dogs">Dogs: </label>
+		<input name="petChoice" id="dogs" type="radio" value="DOGS">
+
+		<label for="cats">Cats: </label>
+		<input name="petChoice" id="cats" type="radio" value="CATS">
+
+		<p>Pick a color</p>
+		<select name="color">
+			<!-- value attribute sends the value instead of the text -->
+			<option value="HahRed">Red</option>
+			<option>orange</option>
+			<option>blurple</option>
+		</select>
+
+		<textarea name="textarea" rows="10" cols="10">
+			
+		</textarea>
+
+		<!-- button at the end of a form acts as a submit button -->
+		<button>Go!</button>
+	</form>
+
+</body>
+</html>
