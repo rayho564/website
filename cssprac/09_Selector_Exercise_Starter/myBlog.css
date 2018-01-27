@@ -1,0 +1,49 @@
+body {
+    margin: 20px auto;
+	border: 20px solid #bdc3c7;
+	max-width: 700px;
+	width: 80%;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 20px;
+
+}
+
+.article {
+	padding: 20px;
+}
+
+.date {
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+
+.title {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: 800;
+	font-size: 2.0rem;
+}
+
+.quote {
+	border-left: 5px solid #bdc3c7;
+	margin: 10 px 0;
+	padding: 5px;
+}
+
+hr {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr:after {
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
